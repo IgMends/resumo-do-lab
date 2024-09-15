@@ -1,0 +1,15 @@
+Tipos de Serviços em Nuvem & Responsabilidade compartilhada
+
+IAAS (Infraestrutura como Serviço) oferece recursos de infraestrutura, como servidores, armazenamento e redes, de forma escalável e sob demanda, permitindo que as empresas gerenciem e configurem esses recursos de acordo com suas necessidades.
+
+PAAS (Plataforma como Serviço) fornece uma plataforma completa para desenvolvimento, onde os desenvolvedores podem criar, testar e implementar aplicativos sem se preocupar com a gestão da infraestrutura subjacente.
+
+SAAS (Software como Serviço) disponibiliza aplicativos prontos para uso, acessados ​​pela internet, eliminando a necessidade de instalação e manutenção local, como e-mail, CRM e ferramentas de produtividade.
+
+A responsabilidade compartilhada em IAAS, PAAS e SAAS define quem é responsável por cada parte da infraestrutura e segurança.
+
+No IAAS, o provedor cuida da infraestrutura física, enquanto o cliente gerencia sistemas operacionais, aplicativos e dados.
+
+No PAAS, o provedor lida com a infraestrutura e a plataforma, enquanto o cliente cuida dos aplicativos e dados.
+
+No SAAS, o provedor gerencia tudo, incluindo segurança, infraestrutura e software, enquanto o cliente é responsável pelo uso seguro dos dados e configurações do sistema.
