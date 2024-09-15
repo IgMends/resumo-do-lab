@@ -1,0 +1,28 @@
+v-net
+
+A Azure Virtual Network (VNet) é um serviço essencial no Azure que oferece uma rede isolada e segura para hospedar recursos e serviços de nuvem, como máquinas virtuais (VMs), bancos de dados e aplicativos.
+Ele permite a comunicação privada entre os recursos dentro do Azure, fornecendo controle sobre o tráfego de rede, endereçamento IP, segurança e conectividade com redes on-premises.
+
+Aqui estão os principais aspectos do Azure VNet:
+
+Isolamento e Segmentação: Cada VNet é isolada logicamente de outras VNets no Azure, garantindo que o tráfego de rede seja segregado e seguro. Isso permite que você crie sub-redes e controle o tráfego dentro da rede.
+
+Sub-redes (Subnets): Dentro de uma VNet, é possível dividir a rede em sub-redes (subnets) para segmentar recursos de forma organizada e aplicar políticas de segurança específicas em cada subnet.
+
+Endereçamento IP: Ao criar uma VNet, você define um espaço de endereçamento IP privado usando faixas de IP privadas (por exemplo, 10.0.0.0/16). Esses endereços IP não são roteados pela internet pública, proporcionando segurança adicional.
+
+Controle de Tráfego:
+
+Network Security Groups (NSGs): São usados para controlar o tráfego de entrada e saída para os recursos dentro de subnets ou VMs, permitindo ou bloqueando o tráfego com base em regras específicas.
+Azure Firewall e Application Gateway: Oferecem uma camada adicional de segurança para inspecionar e filtrar o tráfego.
+Conectividade com Redes On-Premises: Você pode conectar sua VNet a sua infraestrutura local usando opções como:
+
+VPN Gateway: Para conexões seguras de site a site usando VPN.
+ExpressRoute: Para uma conexão privada e de alta velocidade entre sua rede local e o Azure, sem passar pela internet pública.
+Peering de VNet: O peering permite conectar VNets diferentes no Azure, mesmo que estejam em diferentes regiões, permitindo que o tráfego entre elas ocorra de maneira segura e com baixa latência.
+
+DNS e Resolução de Nomes: Você pode usar o Azure DNS ou servidores DNS personalizados para gerenciar a resolução de nomes de domínio dentro de sua VNet.
+
+Integração com Serviços Azure: VNets permitem que recursos do Azure, como máquinas virtuais, bancos de dados e serviços gerenciados (como Azure App Service ou Azure Kubernetes Service), sejam implantados e gerenciados dentro de sua rede virtual.
+
+A VNet no Azure oferece flexibilidade e controle para criar arquiteturas complexas de rede em nuvem com alto nível de segurança e desempenho, ao mesmo tempo que facilita a integração com infraestruturas locais e outros recursos em nuvem.
